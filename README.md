@@ -1,0 +1,2 @@
+# nepali_embosed_number_plate_detection
+for numberplate detection and character segmentation
