@@ -51,14 +51,18 @@ nepali_embossed_number_plate_detection/
    ```bash
    python detect_video.py
 
-Sample output that canbe helpful 
+Sample output that can be helpful 
+
 ![Input Image](resources/IMG_2116.JPG)
-![Segmented Character 1](resources/segmented_characters/seg_char1.jpg)
-![Segmented Character 2](resources/segmented_characters/seg_char2.jpg)
-![Video Frame](resources/segmented_characters/frame_105.jpg)
-![Cropped Plate](output/cropped_plate_1.jpg)
 
+### Detected License Plates
 
-
-   
+![Detected 1](images/for_photo/character_1.jpg)
+![Detected 2](images/for_photo/character_2.jpg)
+![Detected 3](images/for_photo/character_3.jpg)
+![Detected 4](images/for_photo/character_4.jpg)
+![Detected 5](images/for_photo/character_5.jpg)
+![Detected 6](images/for_photo/character_6.jpg)
+![Detected 7](images/for_photo/character_7.jpg)
+![Detected 8](images/for_photo/detected_character_contoured.jpg)   
   
