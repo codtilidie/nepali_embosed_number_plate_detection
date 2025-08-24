@@ -21,6 +21,9 @@ It also saves the cropped plates, segmented characters, and detection results fo
     ├── resources/ # Sample images and videos
     │ ├── IMG_2116.JPG # Sample input image
     │ ├── first.mp4 # Sample video
+    
+    ├── docs/ # YOLO models
+    │ ├── ARV.docs # documentation for project
     │
     ├── util.py # Helper functions (formatting, CSV writing, contour grouping)
     ├── detect_image.py # Script to detect plates from an image
