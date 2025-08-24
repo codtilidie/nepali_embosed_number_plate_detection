@@ -1,4 +1,4 @@
-# Nepali Embossed Number Plate Detection 🚗📷
+# Nepali Embossed Number Plate Detection 
 
 This project detects **Nepali embossed vehicle number plates** from **images** and **videos**,  
 performs **character segmentation**, and recognizes the license plate using **YOLOv8 + EasyOCR**.
@@ -65,8 +65,9 @@ Below are the segmented characters detected from an image:
 Here is a sample video :
 
 <img src="resources/IMG_2116.JPG" alt="Input Image" width="400"/>
-Here are some frames detected from a video input:
 
-<p float="left"> <img src="resources/first.mp4" alt="Frame 1" width="200"/> <img src="images/for_video/Figure_12.png" alt="Frame 2" width="200"/> <img src="images/for_video/figure_11.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_13.png" alt="Frame 3" width="200"/> <img src="images/for_video/Figure_14.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_15.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_16.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_17.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_18.png" alt="Frame 4" width="200"/> </p></p></p>
+Here are some of the result detected for the video frame:
+
+<p float="left"> <img src="images/for_video/Figure_11.png" alt="Frame 1" width="200"/> <img src="images/for_video/figure_12.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_13.png" alt="Frame 3" width="200"/> <img src="images/for_video/Figure_14.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_15.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_16.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_17.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_18.png" alt="Frame 4" width="200"/> </p></p></p>
 ![Detected 8](images/for_photo/detected_character_contoured.png)   
   
