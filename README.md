@@ -113,7 +113,9 @@ Here are some of the result detected for the video frame:
 This project was built by:
 
 - **Aashish Roka**  
-[<img src="https://github.com/iamreez.png" width="60" height="60">]](https://github.com/iamreez)
+-<a href="https://github.com/iamreez">
+  <img src="https://github.com/iamreez.png" width="70" style="border-radius:50%;" />
+</a> **Reeya Mishra
 - **Vagwat kumar shah**  
 
 ## Disclaimer
