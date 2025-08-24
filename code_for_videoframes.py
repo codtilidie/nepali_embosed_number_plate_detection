@@ -246,4 +246,5 @@ while ret:
         show_image(frame, f"Frame {frame_nmr}")
 
 
-print("Result was successfully saved in the results.csv folder.")
+print("Result was successfully saved in the results.csv.")
+
