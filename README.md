@@ -50,19 +50,21 @@ nepali_embossed_number_plate_detection/
 2. Detect from video:
    ```bash
    python detect_video.py
+📸 Sample Outputs
+🔹 Input Example
 
-Sample output that can be helpful 
+Here is a sample input image:
 
-![Input Image](resources/IMG_2116.JPG)
+<img src="resources/IMG_2116.JPG" alt="Input Image" width="400"/>
+🔹 Detected Characters from Photo
 
-### Detected License Plates
+Below are the segmented characters detected from an image:
 
-![Detected 1](images/for_photo/character_1.png)
-![Detected 2](images/for_photo/character_2.png)
-![Detected 3](images/for_photo/character_3.png)
-![Detected 4](images/for_photo/character_4.png)
-![Detected 5](images/for_photo/character_5.png)
-![Detected 6](images/for_photo/character_6.png)
-![Detected 7](images/for_photo/character_7.png)
+<p float="left"> <img src="images/for_photo/character_1.png" alt="Character 1" width="100"/> <img src="images/for_photo/character_2.png" alt="Character 2" width="100"/> <img src="images/for_photo/character_3.png" alt="Character 3" width="100"/> <img src="images/for_photo/character_4.png" alt="Character 4" width="100"/> <img src="images/for_photo/character_5.png" alt="Character 5" width="100"/> <img src="images/for_photo/character_6.png" alt="Character 6" width="100"/> <img src="images/for_photo/character_7.png" alt="Character 7" width="100"/> <img src="images/for_photo/detected_character_contoured.png" alt="Final Contour" width="150"/> </p>
+🎥 Detected Plates from Video
+
+Here are some frames detected from a video input:
+
+<p float="left"> <img src="images/for_video/figure10.png" alt="Frame 1" width="200"/> <img src="images/for_video/Figure12.png" alt="Frame 2" width="200"/> <img src="images/for_video/figure11.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure13.png" alt="Frame 3" width="200"/> <img src="images/for_video/Figure14.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure15.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure16.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure17.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure18.png" alt="Frame 4" width="200"/> </p></p></p>
 ![Detected 8](images/for_photo/detected_character_contoured.png)   
   
