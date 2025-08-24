@@ -8,22 +8,22 @@ It also saves the cropped plates, segmented characters, and detection results fo
 ---
 
 ## 📂 Project Structure
-nepali_embossed_number_plate_detection/
-│
-├── models/ # YOLO models
-│ ├── best.pt # YOLO model for license plates
-│ ├── yolov8l.pt # YOLO model for vehicle detection
-│
-├── resources/ # Sample images and videos
-│ ├── IMG_2116.JPG # Sample input image
-│ ├── first.mp4 # Sample video
-│ ├── segmented_characters/ # Sample segmented character images
-│
-├── util.py # Helper functions (formatting, CSV writing, contour grouping)
-├── detect_image.py # Script to detect plates from an image
-├── detect_video.py # Script to detect plates from a video
-├── requirements.txt # Python dependencies
-└── README.md # This file
+    nepali_embossed_number_plate_detection/
+    │
+    ├── models/ # YOLO models
+    │ ├── best.pt # YOLO model for license plates
+    │ ├── yolov8l.pt # YOLO model for vehicle detection
+    │
+    ├── resources/ # Sample images and videos
+    │ ├── IMG_2116.JPG # Sample input image
+    │ ├── first.mp4 # Sample video
+    │ ├── segmented_characters/ # Sample segmented character images
+    │
+    ├── util.py # Helper functions (formatting, CSV writing, contour grouping)
+    ├── detect_image.py # Script to detect plates from an image
+    ├── detect_video.py # Script to detect plates from a video
+    ├── requirements.txt # Python dependencies
+    └── README.md # This file
 
 
 ---
@@ -72,4 +72,54 @@ Here is a sample video :
 Here are some of the result detected for the video frame:
 
 <p float="left"> <img src="images/for_video/Figure_11.png" alt="Frame 1" width="200"/> <img src="images/for_video/Figure_12.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_13.png" alt="Frame 3" width="200"/> <img src="images/for_video/Figure_14.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_15.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_16.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_17.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_18.png" alt="Frame 4" width="200"/> </p></p></p>  
-  
+
+Features
+
+Detects vehicles and number plates in images & videos
+
+Crops license plates and segments characters
+
+Recognizes plate numbers with confidence scores
+
+Saves results in CSV for further analysis
+
+Visualizes segmented characters for debugging
+
+
+📌 Notes
+
+YOLO models (best.pt, yolov8l.pt) are tracked with Git LFS.
+
+Make sure to install Git LFS before cloning.
+
+Sample images and videos are included for testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
