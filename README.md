@@ -61,7 +61,7 @@ It also saves the cropped plates, segmented characters, and detection results fo
 You can view the full project report [here](./docs/ARV.docx).
 
 ### Dataset
-The full training images can be downloaded from Google Drive:  
+The full training images with labesls can be downloaded from Google Drive:  
 [Download here](https://drive.google.com/file/d/1saP-M1m2jGIipcdtLUqupTHuyXWUJsAz/view?usp=sharing)
 
    
@@ -104,6 +104,14 @@ Here are some of the result detected for the video frame:
 - YOLO models (best.pt, yolov8l.pt) are tracked with Git LFS.
 - Make sure to install Git LFS before cloning.
 - Sample images and videos are included for testing
+
+##  Project Info
+
+This project was built by:
+
+- **Aashish Roka**  
+- **Reeya Mishra**  
+- **Vagwat kumar shah**  
 
 
 
