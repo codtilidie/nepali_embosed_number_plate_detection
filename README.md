@@ -58,6 +58,7 @@ It also saves the cropped plates, segmented characters, and detection results fo
    python detect_video.py
    
 Sample Outputs
+
 🔹 Input Example
 
 Here is a sample input image:
