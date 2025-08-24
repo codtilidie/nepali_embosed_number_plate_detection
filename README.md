@@ -50,7 +50,8 @@ It also saves the cropped plates, segmented characters, and detection results fo
 2. Detect from video:
    ```bash
    python detect_video.py
-📸 Sample Outputs
+   
+Sample Outputs
 🔹 Input Example
 
 Here is a sample input image:
@@ -62,37 +63,32 @@ Below are the segmented characters detected from an image:
 
 <p float="left"> <img src="images/for_photo/character_1.png" alt="Character 1" width="100"/> <img src="images/for_photo/character_2.png" alt="Character 2" width="100"/> <img src="images/for_photo/character_3.png" alt="Character 3" width="100"/> <img src="images/for_photo/character_4.png" alt="Character 4" width="100"/> <img src="images/for_photo/character_5.png" alt="Character 5" width="100"/> <img src="images/for_photo/character_6.png" alt="Character 6" width="100"/> <img src="images/for_photo/character_7.png" alt="Character 7" width="100"/> <img src="images/for_photo/detected_character_contoured.png" alt="Final Contour" width="150"/> </p>
 
-Here is a sample video :
+
 
 ### 🎥 Sample Video Output
 
-[![Watch the video](resources/thumbnail.png)](resources/first.mp4)
+Here is a sample video :
 
+[![Watch the video](resources/thumbnail.png)](resources/first.mp4)
 
 Here are some of the result detected for the video frame:
 
 <p float="left"> <img src="images/for_video/Figure_11.png" alt="Frame 1" width="200"/> <img src="images/for_video/Figure_12.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_13.png" alt="Frame 3" width="200"/> <img src="images/for_video/Figure_14.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_15.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_16.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_17.png" alt="Frame 4" width="200"/> <img src="images/for_video/Figure_18.png" alt="Frame 4" width="200"/> </p></p></p>  
 
-Features
+## Features
 
-Detects vehicles and number plates in images & videos
-
-Crops license plates and segments characters
-
-Recognizes plate numbers with confidence scores
-
-Saves results in CSV for further analysis
-
-Visualizes segmented characters for debugging
+- Detects vehicles and number plates in images & videos
+- Crops license plates and segments characters
+- Recognizes plate numbers with confidence scores
+- Saves results in CSV for further analysis
+- Visualizes segmented characters for debugging
 
 
-📌 Notes
+## Notes
 
-YOLO models (best.pt, yolov8l.pt) are tracked with Git LFS.
-
-Make sure to install Git LFS before cloning.
-
-Sample images and videos are included for testing
+- YOLO models (best.pt, yolov8l.pt) are tracked with Git LFS.
+- Make sure to install Git LFS before cloning.
+- Sample images and videos are included for testing
 
 
 
