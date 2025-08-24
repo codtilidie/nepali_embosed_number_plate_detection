@@ -58,11 +58,11 @@ It also saves the cropped plates, segmented characters, and detection results fo
    python detect_video.py
 
 ### 📄 Project Report
-    You can view the full project report [here](./docs/ARV.docx).
+You can view the full project report [here](./docs/ARV.docx).
 
 ### Dataset
-    The full training images can be downloaded from Google Drive:  
-    [Download here](https://drive.google.com/your-link)
+The full training images can be downloaded from Google Drive:  
+[Download here](https://drive.google.com/your-link)
 
    
 Sample Outputs
