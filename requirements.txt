@@ -1,0 +1,13 @@
+numpy==1.26.1
+opencv-python==4.9.0.80
+matplotlib==3.8.3
+pandas==2.2.1   # if you use CSV saving
+torch==2.2.2
+torchvision==0.17.2
+ultralytics==8.1.42
+easyocr==1.7.2
+scikit-image==0.25.2
+tqdm==4.66.2
+filterpy==1.4.5   # used in SORT tracking
+shapely==2.1.1
+Pillow==10.1.0
