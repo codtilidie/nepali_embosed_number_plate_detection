@@ -29,6 +29,7 @@ It also saves the cropped plates, segmented characters, and detection results fo
     ├── detect_image.py # Script to detect plates from an image
     ├── detect_video.py # Script to detect plates from a video
     ├── requirements.txt # Python dependencies
+    |── results.csv # to view the reuslts for the detect_video
     └── README.md # This file
 
 
