@@ -14,6 +14,10 @@ It also saves the cropped plates, segmented characters, and detection results fo
     │ ├── best.pt # YOLO model for license plates
     │ ├── yolov8l.pt # YOLO model for vehicle detection
     │
+    ├── images/ # Sample images and videos
+    │ ├── for_image # Sample output
+    │ ├── for_video # Sample output
+    │ 
     ├── resources/ # Sample images and videos
     │ ├── IMG_2116.JPG # Sample input image
     │ ├── first.mp4 # Sample video
