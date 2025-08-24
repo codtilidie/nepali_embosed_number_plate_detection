@@ -113,7 +113,7 @@ Here are some of the result detected for the video frame:
 This project was built by:
 
 - **Aashish Roka**  
--[<img src="https://github.com/friend2-username.png" width="60" height="60">](https://github.com/iamreez) **Reeya Mishra**  
+[<img src="https://github.com/iamreez.png" width="60" height="60">] **Reeya Mishra**  
 - **Vagwat kumar shah**  
 
 ## Disclaimer
