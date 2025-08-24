@@ -43,7 +43,6 @@ nepali_embossed_number_plate_detection/
    ```bash
    git lfs install
 
-
 1. Detect from image:
    ```bash
    python detect_image.py
@@ -51,6 +50,13 @@ nepali_embossed_number_plate_detection/
 2. Detect from video:
    ```bash
    python detect_video.py
+
+Sample output that canbe helpful 
+![Input Image](resources/IMG_2116.JPG)
+![Segmented Character 1](resources/segmented_characters/seg_char1.jpg)
+![Segmented Character 2](resources/segmented_characters/seg_char2.jpg)
+![Video Frame](resources/segmented_characters/frame_105.jpg)
+![Cropped Plate](output/cropped_plate_1.jpg)
 
 
 
