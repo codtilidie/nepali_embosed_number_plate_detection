@@ -64,7 +64,9 @@ Below are the segmented characters detected from an image:
 
 Here is a sample video :
 
-<img src="resources/IMG_2116.JPG" alt="Input Image" width="400"/>
+### 🎥 Sample Video Output
+
+<video src="resources/first.mp4" controls></video>
 
 Here are some of the result detected for the video frame:
 
