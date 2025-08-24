@@ -114,6 +114,11 @@ This project was built by:
 - **Reeya Mishra**  
 - **Vagwat kumar shah**  
 
+## Disclaimer
+This project is developed solely for **research and educational purposes**.  
+It may contain bugs or limitations, and the current implementation may not work well on all types of images, especially under diverse conditions (e.g., different lighting, angles, or occlusions).  
+
+Use at your own risk — contributions and improvements are welcome!
 
 
 
