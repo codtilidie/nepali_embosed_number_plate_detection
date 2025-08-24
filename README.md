@@ -76,7 +76,7 @@ Here is a sample input image:
 
 Below are the segmented characters detected from an image:
 
-<p float="left"> <img src="images/for_photo/character_1.png" alt="Character 1" width="100"/> <img src="images/for_photo/character_2.png" alt="Character 2" width="100"/> <img src="images/for_photo/character_3.png" alt="Character 3" width="100"/> <img src="images/for_photo/character_4.png" alt="Character 4" width="100"/> <img src="images/for_photo/character_5.png" alt="Character 5" width="100"/> <img src="images/for_photo/character_6.png" alt="Character 6" width="100"/> <img src="images/for_photo/character_7.png" alt="Character 7" width="100"/> <img src="images/for_photo/detected_character_contoured.png" alt="Final Contour" width="150"/> </p>
+<p float="left"> <img src="images/for_photo/character_1.png" alt="Character 1" width="100"/> <img src="images/for_photo/character_2.png" alt="Character 2" width="100"/> <img src="images/for_photo/character_3.png" alt="Character 3" width="100"/> <img src="images/for_photo/character_4.png" alt="Character 4" width="100"/> <img src="images/for_photo/character_5.png" alt="Character 5" width="100"/> <img src="images/for_photo/character_6.png" alt="Character 6" width="100"/> <img src="images/for_photo/character_7.png" alt="Character 7" width="100"/> <img src="images/for_photo/character_8.png" alt="Character 7" width="100"/> <img src="images/for_photo/detected_character_contoured.png" alt="Final Contour" width="150"/> </p>
 
 
 
