@@ -57,12 +57,12 @@ Sample output that can be helpful
 
 ### Detected License Plates
 
-![Detected 1](images/for_photo/character_1.jpg)
-![Detected 2](images/for_photo/character_2.jpg)
-![Detected 3](images/for_photo/character_3.jpg)
-![Detected 4](images/for_photo/character_4.jpg)
-![Detected 5](images/for_photo/character_5.jpg)
-![Detected 6](images/for_photo/character_6.jpg)
-![Detected 7](images/for_photo/character_7.jpg)
-![Detected 8](images/for_photo/detected_character_contoured.jpg)   
+![Detected 1](images/for_photo/character_1.png)
+![Detected 2](images/for_photo/character_2.png)
+![Detected 3](images/for_photo/character_3.png)
+![Detected 4](images/for_photo/character_4.png)
+![Detected 5](images/for_photo/character_5.png)
+![Detected 6](images/for_photo/character_6.png)
+![Detected 7](images/for_photo/character_7.png)
+![Detected 8](images/for_photo/detected_character_contoured.png)   
   
