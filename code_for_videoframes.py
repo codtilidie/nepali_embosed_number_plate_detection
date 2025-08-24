@@ -245,4 +245,5 @@ while ret:
         # Show frame with debug boxes
         show_image(frame, f"Frame {frame_nmr}")
 
-print("Result was successfully saved in the test.csv folder.")
+
+print("Result was successfully saved in the results.csv folder.")
