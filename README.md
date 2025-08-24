@@ -108,20 +108,21 @@ Here are some of the result detected for the video frame:
 - Make sure to install Git LFS before cloning.
 - Sample images and videos are included for testing
 
+
 ## 👥 Collaborators
 
 <table>
   <tr>
     <td align="center">
       <a href="https://github.com/codtilidie">
-        <img src="https://github.com/codtilidie.png" width="80" style="border-radius:50%;" />
+        <img src="https://github.com/codtilidie.png" width="80">
         <br>
         <sub><b>Aashish Roka</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/iamreez">
-        <img src="https://github.com/iamreez.png" width="80" style="border-radius:50%;" />
+        <img src="https://github.com/iamreez.png" width="80">
         <br>
         <sub><b>iamreez</b></sub>
       </a>
@@ -131,7 +132,6 @@ Here are some of the result detected for the video frame:
     </td>
   </tr>
 </table>
- 
 
 ## Disclaimer
 This project is developed solely for **research and educational purposes**.  
