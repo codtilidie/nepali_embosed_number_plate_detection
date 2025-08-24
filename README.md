@@ -111,17 +111,17 @@ Here are some of the result detected for the video frame:
 
 ## 👥 Collaborators
 
-<a href="https://github.com/codtilidie">
-  <img src="https://github.com/codtilidie.png" width="80" style="border-radius:50%;" />
-</a>  
-<br>
-[**Aashish Roka**](https://github.com/codtilidie)
-
-<a href="https://github.com/iamreez">
-  <img src="https://github.com/iamreez.png" width="80" style="border-radius:50%;" />
-</a>  
-<br>
-[**iamreez**](https://github.com/iamreez)
+    <a href="https://github.com/codtilidie">
+      <img src="https://github.com/codtilidie.png" width="80" style="border-radius:50%;" />
+    </a>  
+    <br>
+    [**Aashish Roka**](https://github.com/codtilidie)
+    
+    <a href="https://github.com/iamreez">
+      <img src="https://github.com/iamreez.png" width="80" style="border-radius:50%;" />
+    </a>  
+    <br>
+    [**iamreez**](https://github.com/iamreez)
 
 - **Vagwat kumar shah**  
 
