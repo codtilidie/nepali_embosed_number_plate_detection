@@ -85,9 +85,6 @@ def segmentcharacter(img, org_img, class_id):
 
 def filter_img(img):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    # thres = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 13, 8)
-    # cv2.imshow('', thres)
-    # cv2.waitKey(0)
     
     # Apply Bilateral Filter
     bilateral_filtered = cv2.bilateralFilter(gray, 5,150,150)
@@ -99,16 +96,11 @@ def filter_img(img):
     # Example of morphological closing with adjusted kernel
     thres_adaptive_closed = cv2.morphologyEx(bilateral_filtered, cv2.MORPH_CLOSE, kernel)
     
-
-    # Apply CLAHE to enhance local contrast
-    # img_clahe = cv2.equalizeHist(thres_adaptive_closed)
     # Create a CLAHE object (Contrast Limited Adaptive Histogram Equalization)
     clahe = cv2.createCLAHE(clipLimit=10, tileGridSize=(3 ,3))
     
     # Apply CLAHE to enhance local contrast
     img_clahe = clahe.apply(thres_adaptive_closed)
-
-        # cv2.imshow('clahe', img_clahe)   
     
     thres = cv2.adaptiveThreshold(img_clahe, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 51, 30)
     # cv2.imshow('final', thres)
@@ -147,21 +139,13 @@ def crop_img(region, img):
     ycrcb_clahe = cv2.merge([y_clahe, cr, cb])
     # Convert back to BGR color space
     cropped_img = cv2.cvtColor(ycrcb_clahe, cv2.COLOR_YCrCb2BGR)
-    # cv2.imshow("histo", cropped_img)
-    # cv2.waitKey(0)
     
     #sharpnening the image
     # Apply Gaussian Blur to the image
     blurred = cv2.GaussianBlur(cropped_img, (9, 9), 10.0)
+    
     # Apply the unsharp mask
     cropped_img = cv2.addWeighted(cropped_img, 1.5, blurred, -0.5, 0)
-    # cv2.imshow("sharp", cropped_img)
-    # cv2.waitKey(0)
-
-    # cv2.imwrite('img_3.jpg',cropped_img)
-        # cv2.imshow('', cropped_img)
-        # cv2.waitKey(0)
-    
     
     filter_img(cropped_img)
 
@@ -247,4 +231,5 @@ while ret:
 
 
 print("Result was successfully saved in the results.csv.")
+
 
